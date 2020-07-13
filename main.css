@@ -1,9 +1,30 @@
 /* ===== BASE STYLES ===== */
 
-h1 {
-  font-size: 32px;
+body {
+    position: relative;
+    background: url(freedom.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
-.aquamarine {
-  background-color: aquamarine;
+h1 {
+    font-size: 2rem;
+    position: fixed;
+    top: 20%;
+    margin: 0% 5% 0%;
+    font-family: sans-serif;
+    letter-spacing: 0.625rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+    position: fixed;
+    top: 42%;
+    width: 100%;
+    text-align: center;
 }
