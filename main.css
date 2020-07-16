@@ -1,4 +1,8 @@
-/* ===== BASE STYLES ===== */
+/* ===== BASIC STYLES ===== */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     position: relative;
@@ -9,22 +13,85 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: fixed;
-    top: 20%;
-    margin: 0% 5% 0%;
+    top: 10%;
+    padding: 8% 5%;
     font-family: sans-serif;
-    letter-spacing: 0.625rem;
+    letter-spacing: 0.5rem;
     text-transform: uppercase;
     text-align: center;
-    line-height: 3rem;
+    line-height: 1.5rem;
+    background-color: rgba(255,255,255,.5)
 }
 
 h2 {
     font-size: 1.5rem;
     font-style: italic;
     position: fixed;
-    top: 42%;
+    padding: 5%;
+    bottom: 15%;
     width: 100%;
     text-align: center;
+    background-color: rgba(255,255,255,.3)
+}
+
+/* Heading Wrapper Styles */
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        top: 10%;
+        padding: 5%;
+        letter-spacing: 0.625rem;
+        line-height: 3rem;
+        background-color: rgba(255,255,255,0)
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-style: italic;
+        top: 46%;
+        padding: 0%;
+        height: 10%;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255,255,255,0)
+    }
+}
+
+/* ===== FOOTER STYLES ===== */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(255,255,255,.3)
+}
+
+img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.kilipue-design-link {
+    font-size: 1.2rem;
+    font-family: "matura mt script capitals";
+    text-decoration: none;
+    color: darkslategrey;
+    padding: 5%;
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+    background-color: rgba(255,255,255,.3)
+}
+
+/* Footer Wrapper Styles */
+
+@media (min-width: 768px) {
+    .kilipue-design-link {
+        font-size: 1.5rem;
+        background-color: rgba(255,255,255,0);
+        padding: 3%;
+    }
 }
